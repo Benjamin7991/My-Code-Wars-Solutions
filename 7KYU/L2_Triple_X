@@ -1,0 +1,9 @@
+def triple_x(s):
+    
+    for i in range(len(s)):
+        if s[i] == 'x':
+            try:
+                return s[i+1] == 'x' and s[i+2] == 'x'
+            except:
+                ''
+    return False
